@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div.test{
+    width: 600px;
+    background-color: lightskyblue;
+    color: white;
+    margin: 150px auto;
+    border-radius: 15px;
+    box-shadow: 5px 5px grey;
+}
+div.test > h1{
+    text-align: center;
+    padding-top: 10px;
+}
+div.test > p{
+    text-align: justify;
+    font-size: 28px;
+    padding: 15px;
+}
